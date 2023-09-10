@@ -11,7 +11,7 @@ namespace DirectiryWork
     {
         static void Main(string[] args)
         {
-            GetCountFilesAndDirectories();
+            MakeNewDirectory();
         }
         static void GetCountFilesAndDirectories()
         {
@@ -29,6 +29,25 @@ namespace DirectiryWork
             }
            
 
+        }
+        static void MakeNewDirectory()
+        {
+            try
+            {
+                GetCountFilesAndDirectories();
+                string dirName = @"C:\\NewFolder";
+                DirectoryInfo dirInfo = new DirectoryInfo(dirName);
+                if (!dirInfo.Exists)
+                    dirInfo.Create();
+
+
+                GetCountFilesAndDirectories();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            
         }
     }
 }
