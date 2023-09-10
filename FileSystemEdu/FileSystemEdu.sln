@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemEdu", "FileSystem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectiryWork", "DirectiryWork\DirectiryWork.csproj", "{11CC8557-0B98-4F26-A85E-120D49086847}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliteFolder", "DeliteFolder\DeliteFolder.csproj", "{FBF15927-F889-4E4D-83A3-3539ACB4CBA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{11CC8557-0B98-4F26-A85E-120D49086847}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11CC8557-0B98-4F26-A85E-120D49086847}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11CC8557-0B98-4F26-A85E-120D49086847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF15927-F889-4E4D-83A3-3539ACB4CBA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF15927-F889-4E4D-83A3-3539ACB4CBA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF15927-F889-4E4D-83A3-3539ACB4CBA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF15927-F889-4E4D-83A3-3539ACB4CBA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
