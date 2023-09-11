@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectiryWork", "DirectiryW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliteFolder", "DeliteFolder\DeliteFolder.csproj", "{FBF15927-F889-4E4D-83A3-3539ACB4CBA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkWithOwnFile", "WorkWithOwnFile\WorkWithOwnFile.csproj", "{D42275B2-538E-443E-A86E-43378A5814F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkWithOwnFile", "WorkWithOwnFile\WorkWithOwnFile.csproj", "{D42275B2-538E-443E-A86E-43378A5814F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryFiles", "BinaryFiles\BinaryFiles.csproj", "{CA4A5E35-CE73-4CD4-AE69-F344F35612DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryFiles", "BinaryFiles\BinaryFiles.csproj", "{CA4A5E35-CE73-4CD4-AE69-F344F35612DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization", "Serialization\Serialization.csproj", "{241D56AA-495E-4E41-A6A3-4F21FE30BA73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{CA4A5E35-CE73-4CD4-AE69-F344F35612DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA4A5E35-CE73-4CD4-AE69-F344F35612DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA4A5E35-CE73-4CD4-AE69-F344F35612DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{241D56AA-495E-4E41-A6A3-4F21FE30BA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241D56AA-495E-4E41-A6A3-4F21FE30BA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241D56AA-495E-4E41-A6A3-4F21FE30BA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241D56AA-495E-4E41-A6A3-4F21FE30BA73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
