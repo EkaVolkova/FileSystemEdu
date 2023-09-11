@@ -2,7 +2,8 @@
 using System.IO;
 
 /// <summary>
-/// Напишите программу, которая выводит свой собственный исходный код в консоль.
+/// 8.3.1. Напишите программу, которая выводит свой собственный исходный код в консоль.
+/// 8.3.2 Сделайте так, чтобы ваша программа из задания 8.3.1 при каждом запуске добавляла в свой исходный код комментарий о времени последнего запуска.
 /// </summary>
 namespace WorkWithOwnFile
 {
@@ -11,7 +12,9 @@ namespace WorkWithOwnFile
         static void Main(string[] args)
         {
             string path = @"C:\projects\skillfactory\FileSystemEdu\FileSystemEdu\WorkWithOwnFile\Program.cs";
-            using (StreamReader sr = File.OpenText(path))
+            var fileInfo = new FileInfo(path); // Создаем объект класса FileInfo.
+            
+            using (StreamReader sr = fileInfo.OpenText())
             {
                 string str = String.Empty;
                 // Пока не кончатся строки - считываем из файла по одной и выводим в консоль
@@ -21,6 +24,11 @@ namespace WorkWithOwnFile
                 }
 
             }
+            using (var sw = fileInfo.AppendText())
+            {
+                sw.WriteLine(@"//Последний раз запущено " + DateTime.Now);
+            }
         }
     }
 }
+//Последний раз запущено 11.09.2023 21:23:38
